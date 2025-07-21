@@ -1,0 +1,59 @@
+site_name: KFUPM - IRC for Aviation and Space Exploration
+
+
+nav:
+  - Reserving an Area in KSA: index.md
+  - recommendations: recommendations.md
+
+
+
+
+
+repo_url: https://github.com/ibrahimaljalal/test758
+repo_name: ibrahimaljalal/test758
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: assets/favicon.png
+  logo: assets/favicon.png
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.footer
+  icon:
+    edit: material/pencil 
+    view: material/eye
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
+
+# plugins:
+#   - git-revision-date-localized:
+#       enable_creation_date: true
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
